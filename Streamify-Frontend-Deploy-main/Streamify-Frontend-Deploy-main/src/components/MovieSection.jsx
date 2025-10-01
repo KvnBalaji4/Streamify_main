@@ -1,24 +1,52 @@
 // src/components/MovieSection.jsx
-import React from 'react';
-import './../assets/css/MovieSection.css';
+import React, { useRef } from "react";
+import "./../assets/css/MovieSection.css";
 
 const MovieSection = ({ title, movies }) => {
+  const rowRef = useRef(null);
+
+  const scroll = (direction) => {
+    if (rowRef.current) {
+      const { scrollLeft, clientWidth } = rowRef.current;
+      const scrollAmount =
+        direction === "left"
+          ? scrollLeft - clientWidth
+          : scrollLeft + clientWidth;
+      rowRef.current.scrollTo({ left: scrollAmount, behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="movie-section">
-      <h2>{title}</h2>
-      <div className="row">
-        {movies.map((movie, index) => (
-          <div className="col-md-3 col-sm-6 mb-4" key={index}>
-            <div className="card">
-              <img src={movie.thumbnailUrl} alt={movie.title} className="card-img-top" />
-              <div className="card-body">
-                <h5 className="card-title">{movie.title}</h5>
-                {movie.desc && <p className="card-text">{movie.desc}</p>}
-                <a href={`/watch/${movie.driveFileId}`} className="btn btn-primary">Watch Now</a>
+      <h2 className="section-title">{title}</h2>
+      <div className="carousel-container">
+        <button className="scroll-btn left" onClick={() => scroll("left")}>
+          &#10094;
+        </button>
+        <div className="movie-row" ref={rowRef}>
+          {movies.map((movie, index) => (
+            <div className="movie-card" key={index}>
+              <img
+                src={movie.thumbnailUrl}
+                alt={movie.title}
+                className="movie-img"
+              />
+              <div className="movie-info">
+                <h5 className="movie-title">{movie.title}</h5>
+                {movie.desc && <p className="movie-desc">{movie.desc}</p>}
+                <a
+                  href={`/watch/${movie.driveFileId}`}
+                  className="watch-btn"
+                >
+                  Watch Now
+                </a>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+        <button className="scroll-btn right" onClick={() => scroll("right")}>
+          &#10095;
+        </button>
       </div>
     </div>
   );

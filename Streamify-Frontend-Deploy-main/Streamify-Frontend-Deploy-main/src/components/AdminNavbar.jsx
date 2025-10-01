@@ -1,13 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-// import '../assets/css/AdminDashboard.css';
-import '../assets/css/AdminNavbar.css'
+import '../assets/css/AdminNavbar.css';
 
-export default function AdminNavbar({ email }) {
+export default function AdminNavbar({ username }) {
   const navigate = useNavigate();
 
   const handleLogout = () => {
     sessionStorage.clear();
+    localStorage.clear();
     navigate('/');
   };
 
@@ -25,7 +25,7 @@ export default function AdminNavbar({ email }) {
         </ul>
         <div className="user-info">
           <img src="/images/profile.png" alt="User Avatar" className="user-avatar" />
-          <span className="user-email">{email}</span>
+          <span className="user-email">{username || "Admin"}</span>
           <button className="logout-button" onClick={handleLogout}>Logout</button>
         </div>
       </div>

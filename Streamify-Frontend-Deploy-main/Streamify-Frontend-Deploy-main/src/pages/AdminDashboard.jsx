@@ -1,41 +1,80 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AdminNavbar from '../components/AdminNavbar';
-import AdminAddVideo from '../components/AdminAddVideo';
 import Footer from '../components/Footer';
+import HeroBanner from '../components/HeroBanner';
+import MovieSection from '../components/MovieSection';
 import './../assets/css/AdminDashboard.css';
-import AddAdmin from '../components/AddAdmin';
-import UserManager from '../components/UserManager';
 
 export default function AdminDashboard() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
+  const [movies, setMovies] = useState([]);
+  const [genres, setGenres] = useState([]);
 
-  // Authenticate admin from session/localStorage
   useEffect(() => {
-    const storedEmail = sessionStorage.getItem('email') || localStorage.getItem('username');
+    const storedUsername =
+      sessionStorage.getItem('username') || localStorage.getItem('username');
     const role = localStorage.getItem('role');
 
-    if (storedEmail && role === "1") {
-      setEmail(storedEmail);
+    if (storedUsername && role === '1') {
+      setUsername(storedUsername);
     } else {
       navigate('/signin');
     }
   }, [navigate]);
 
+  // fetch videos
+  useEffect(() => {
+    fetch('http://localhost:6086/api/videos')
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed to fetch videos');
+        return res.json();
+      })
+      .then((data) => {
+        setMovies(data);
+
+        // collect unique genres
+        const allGenres = [
+          ...new Set(data.flatMap((movie) => movie.genres || [])),
+        ];
+        setGenres(allGenres);
+      })
+      .catch((err) => {
+        console.error('Error fetching videos:', err);
+      });
+  }, []);
+
   return (
     <div className="admin-dashboard">
       {/* Admin Navigation */}
-      <AdminNavbar email={email} />
+      <AdminNavbar username={username} />
 
       {/* Main Dashboard Content */}
       <main className="dashboard-content">
-        <h2>Welcome, Admin</h2>
+        {/* Removed the Welcome text */}
 
-        {/* You can show default components or dashboard widgets here */}
-        
+        {/* Banner with movie thumbnails */}
+        <HeroBanner
+          bannerImages={movies.map((m) => ({
+            src: m.thumbnailUrl,
+            title: m.title,
+            desc: m.description,
+            driveFileId: m.driveFileId,
+          }))}
+        />
 
-       
+        {/* All Movies Section */}
+        <MovieSection title="All Videos" movies={movies} />
+
+        {/* Genre-based Sections */}
+        {genres.map((genre) => (
+          <MovieSection
+            key={genre}
+            title={genre}
+            movies={movies.filter((movie) => movie.genres?.includes(genre))}
+          />
+        ))}
       </main>
 
       <Footer />
