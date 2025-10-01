@@ -1,0 +1,16 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px; /* increased from 60px */
+    background-color: #4427C2;
+    color: #fff;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px; /* ensure readable text */
+  }

@@ -1,0 +1,83 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  padding: 15px 30px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Streamify brand title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Left nav area for admin buttons */
+.nav-left {
+  flex: 1;
+  display: flex;
+  gap: 15px;
+}
+
+/* Admin nav buttons */
+.nav-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #444;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Right side user info */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-email {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.logout-button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #c40812;
+}

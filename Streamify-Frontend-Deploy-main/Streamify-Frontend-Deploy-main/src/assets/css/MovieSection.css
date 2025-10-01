@@ -1,0 +1,21 @@
+/* src/components/MovieSection.css */
+
+.movie-section {
+  margin: 20px 0;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px; /* Set a fixed height for images */
+  object-fit: cover; /* Maintain aspect ratio */
+}

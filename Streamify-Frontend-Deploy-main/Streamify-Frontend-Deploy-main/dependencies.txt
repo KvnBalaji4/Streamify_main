@@ -1,0 +1,7 @@
+streamify@0.0.0 /home/ganesh/Documents/Projects/Streamify/frontend
+├── axios@1.9.0
+├── qrcode@1.5.4
+├── react-dom@19.0.0
+├── react-router-dom@7.6.0
+└── react@19.0.0
+

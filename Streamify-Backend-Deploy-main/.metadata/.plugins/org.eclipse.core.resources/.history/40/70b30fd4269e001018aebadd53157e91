@@ -1,0 +1,37 @@
+package com.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import java.util.Map;
+
+@RestController
+@RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost:5173") // frontend port
+public class UserController {
+
+    @Autowired
+    UsersManager UM;
+
+    @PostMapping("/register")
+    public ResponseEntity<?> register(@RequestBody Users u) {
+        return ResponseEntity.ok(UM.addUser(u));
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<?> login(@RequestBody Users u) {
+        return ResponseEntity.ok(UM.validateCredentials(u.getUsername(), u.getPassword()));
+    }
+
+    @PostMapping("/getfullname")
+    public ResponseEntity<?> getFullname(@RequestBody Map<String, String> data) {
+        return ResponseEntity.ok(UM.getFullname(data.get("csrid")));
+    }
+
+    // ✅ NEW: Add Admin endpoint (role forced to "1")
+    @PostMapping("/addAdmin")
+    public ResponseEntity<?> addAdmin(@RequestBody Users u) {
+        u.setRole(1); // force role = admin
+        return ResponseEntity.ok(UM.addUser(u));
+    }
+}
