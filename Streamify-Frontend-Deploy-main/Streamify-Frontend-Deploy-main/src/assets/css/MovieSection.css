@@ -142,3 +142,33 @@
 .scroll-btn:hover {
   background: rgba(147,51,234,0.95);
 }
+.add-list-btn {
+  background: transparent;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.add-list-btn:hover {
+  color: red;
+  transform: scale(1.2);
+}
+.add-btn {
+  margin-left: 10px;
+  background-color: #4427C2;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: violet;
+}

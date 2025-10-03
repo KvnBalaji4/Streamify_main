@@ -1,4 +1,3 @@
-// src/components/MovieSection.jsx
 import React, { useRef } from "react";
 import "./../assets/css/MovieSection.css";
 
@@ -14,6 +13,17 @@ const MovieSection = ({ title, movies }) => {
           : scrollLeft + clientWidth;
       rowRef.current.scrollTo({ left: scrollAmount, behavior: "smooth" });
     }
+  };
+
+  const addToWatchlist = (videoId) => {
+    const username = localStorage.getItem("username"); // ✅ now using username
+    fetch(
+      `http://localhost:6086/api/watchlist/add?username=${username}&videoId=${videoId}`,
+      { method: "POST" }
+    )
+      .then((res) => res.json())
+      .then((data) => alert(data.message))
+      .catch((err) => console.error(err));
   };
 
   return (
@@ -33,13 +43,17 @@ const MovieSection = ({ title, movies }) => {
               />
               <div className="movie-info">
                 <h5 className="movie-title">{movie.title}</h5>
-                {movie.desc && <p className="movie-desc">{movie.desc}</p>}
-                <a
-                  href={`/watch/${movie.driveFileId}`}
-                  className="watch-btn"
-                >
-                  Watch Now
-                </a>
+                <div className="actions">
+                  <a href={`/watch/${movie.driveFileId}`} className="watch-btn">
+                    Watch Now
+                  </a>
+                  <button
+                    className="add-btn"
+                    onClick={() => addToWatchlist(movie.id)}
+                  >
+                    +
+                  </button>
+                </div>
               </div>
             </div>
           ))}

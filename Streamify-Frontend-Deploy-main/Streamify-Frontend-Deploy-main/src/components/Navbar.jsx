@@ -46,7 +46,7 @@ const handleLogout = () => {
       {/* Center: Menu Items (For Desktop and Mobile) */}
       <div className={`menu-container ${isMenuOpen ? 'open' : ''}`}>
         <ul className="menu">
-          <li><a href="/">Home</a></li>
+          <li><a href="/userDashboard">Home</a></li>
          
           
           <li><a href="/recently-added">Recently Added</a></li>
