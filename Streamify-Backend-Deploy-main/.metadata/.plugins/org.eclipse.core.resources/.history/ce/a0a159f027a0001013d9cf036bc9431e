@@ -1,0 +1,32 @@
+package com.demo.watchlist;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import com.demo.video.Video;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/watchlist")
+@CrossOrigin(origins = "http://localhost:5173")
+public class WatchlistController {
+
+    @Autowired
+    private WatchlistService watchlistService;
+
+    @PostMapping("/add")
+    public ResponseEntity<?> addToWatchlist(@RequestParam String email, @RequestParam Long videoId) {
+        return ResponseEntity.ok(watchlistService.addToWatchlist(email, videoId));
+    }
+
+    @GetMapping
+    public ResponseEntity<List<Video>> getWatchlist(@RequestParam String email) {
+        return ResponseEntity.ok(watchlistService.getWatchlist(email));
+    }
+
+    @DeleteMapping("/remove")
+    public ResponseEntity<?> removeFromWatchlist(@RequestParam String email, @RequestParam Long videoId) {
+        return ResponseEntity.ok(watchlistService.removeFromWatchlist(email, videoId));
+    }
+}

@@ -1,0 +1,98 @@
+/* Main Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111827; /* dark navy */
+  padding: 12px 24px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Keep Streamify title same */
+.navbar .title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #38bdf8;
+}
+
+.nav-links li::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #38bdf8;
+  transition: width 0.3s ease;
+}
+
+.nav-links li:hover::after {
+  width: 100%;
+}
+
+/* Right side (User info + Logout) */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* User Info */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid #38bdf8;
+}
+
+/* ✅ Show full email (no ellipsis) */
+.user-email {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Logout Button */
+.logout-button {
+  background: #ef4444; /* red */
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background: #dc2626;
+}

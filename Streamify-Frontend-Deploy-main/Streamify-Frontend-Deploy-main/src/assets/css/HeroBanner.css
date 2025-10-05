@@ -1,0 +1,201 @@
+/* HeroBanner.css */
+
+.carousel-banner {
+    position: relative;
+    width: 100%;
+    height: auto; /* Allow height to adjust based on image */
+    text-align: center;
+    background-color: black;
+    padding: 40px 0;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-image {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain original aspect ratio */
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .shadow-image {
+    width: 300px; /* Fixed width for shadow images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: brightness(0.6) grayscale(40%);
+    opacity: 0.6;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    z-index: 0.5;
+  }
+  
+  .left-shadow {
+    left: calc(50% - 460px); /* position to left side */
+    transform: translateY(-50%) scale(0.85);
+  }
+  
+  .right-shadow {
+    right: calc(50% - 460px); /* position to right side */
+    transform: translateY(-50%) scale(0.85);
+  }
+  
+  /* Make shadows visually distinct on hover */
+  .shadow-image:hover {
+    opacity: 0.9;
+    filter: brightness(0.85) grayscale(0%);
+    transform: translateY(-50%) scale(0.95);
+    z-index: 4;
+  }
+  
+  /* Overlay with text and button */
+  .carousel-overlay {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  .carousel-overlay h1 {
+    font-size: 2.8rem;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .carousel-overlay p {
+    font-size: 1.1rem;
+    margin: 0 0 15px 0;
+    line-height: 1.4;
+  }
+  
+  .carousel-overlay button {
+    padding: 12px 28px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-overlay button:hover {
+    background-color: #bf0810;
+  }
+  
+  /* Navigation arrows */
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(68, 39, 194, 0.7);
+    border: none;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+    user-select: none;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Fixed width for arrows */
+    height: 50px; /* Fixed height for arrows */
+  }
+  
+  .arrow:hover {
+    background-color: #6a3fe9;
+  }
+  
+  .left-arrow {
+    left: 15px;
+  }
+  
+  .right-arrow {
+    right: 15px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .carousel-banner {
+      padding: 30px 10px;
+      flex-direction: column;
+    }
+      
+      
+        .shadow-image {
+          display: none; /* Hide shadow images on smaller screens */
+        }
+      
+        .carousel-overlay {
+          bottom: 8%;
+          padding: 20px;
+        }
+      
+        .carousel-overlay h1 {
+          font-size: 2rem;
+        }
+      
+        .carousel-overlay p {
+          font-size: 1rem;
+        }
+      
+        .carousel-overlay button {
+          font-size: 1rem;
+          padding: 10px 20px;
+        }
+      
+        .arrow {
+          font-size: 2rem;
+          width: 40px;
+          height: 40px;
+          padding: 8px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .carousel-overlay {
+          padding: 15px;
+        }
+      
+        .carousel-overlay h1 {
+          font-size: 1.6rem;
+        }
+      
+        .carousel-overlay p {
+          font-size: 0.95rem;
+        }
+      
+        .carousel-overlay button {
+          font-size: 0.95rem;
+          padding: 8px 16px;
+        }
+      
+        .arrow {
+          width: 35px;
+          height: 35px;
+          font-size: 1.8rem;
+        }
+      }
+    

@@ -1,0 +1,319 @@
+2025-09-30 14:31:51,071 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-09-30 14:32:15,659 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Rolebased:0.0.1-SNAPSHOT @ C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\pom.xml.
+2025-09-30 14:32:17,298 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Streamify-Backend-Deploy-main/src/main/java
+2025-09-30 14:32:17,307 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Streamify-Backend-Deploy-main/src/main/resources
+2025-09-30 14:32:17,319 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Streamify-Backend-Deploy-main/src/main/resources
+2025-09-30 14:32:17,321 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Streamify-Backend-Deploy-main/src/test/java
+2025-09-30 14:32:17,323 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Streamify-Backend-Deploy-main/src/test/resources
+2025-09-30 14:32:18,381 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2025-09-30 14:32:19,851 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:32:19,886 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:32:19,895 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:39:35,720 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:39:35,740 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:39:35,745 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:40:53,291 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:40:53,301 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:40:53,305 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:42:01,923 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:42:01,932 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:42:01,932 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:42:13,008 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:42:13,019 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:42:13,019 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:42:24,095 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:42:24,095 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:42:24,111 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:42:41,236 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:42:41,250 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:42:41,254 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:42:52,783 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:42:52,818 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:42:52,825 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:43:04,480 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:43:04,490 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:43:04,493 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:43:15,143 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:43:15,151 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:43:15,156 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 14:59:39,318 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 14:59:39,333 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 14:59:39,340 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:48:22,226 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:48:22,299 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:48:22,303 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:48:29,609 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:48:29,650 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:48:29,655 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:48:53,505 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:48:53,517 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:48:53,520 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:49:33,972 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:49:33,978 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:49:33,981 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:49:40,860 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:49:40,865 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:49:40,867 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:49:55,060 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:49:55,065 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:49:55,067 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:50:01,782 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:50:01,790 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:50:01,793 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:52:33,454 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:52:33,464 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:52:33,489 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:53:28,534 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:53:28,540 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:53:28,543 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 22:54:07,995 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 22:54:08,002 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 22:54:08,005 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 23:08:24,504 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 23:08:24,513 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 23:08:24,515 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 23:08:53,638 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 23:08:53,645 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 23:08:53,647 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 23:09:25,684 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 23:09:25,689 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 23:09:25,691 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 23:14:57,269 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 23:14:57,279 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 23:14:57,282 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 23:22:39,549 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 23:22:39,555 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 23:22:39,557 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 23:23:02,824 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 23:23:02,831 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 23:23:02,833 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-09-30 23:26:45,460 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-30 23:26:45,468 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-30 23:26:45,470 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 00:04:24,811 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 00:04:24,842 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 00:04:24,847 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 00:47:15,737 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-01 00:56:38,898 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 00:56:38,918 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 00:56:38,922 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 00:56:54,343 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 00:56:54,352 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 00:56:54,355 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 00:57:20,925 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 00:57:20,930 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 00:57:20,933 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 00:57:30,894 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 00:57:30,900 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 00:57:30,905 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 01:01:47,317 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 01:01:47,325 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 01:01:47,327 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 01:02:14,083 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 01:02:14,092 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 01:02:14,116 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 01:02:24,706 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 01:02:24,706 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 01:02:24,706 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 01:02:34,504 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 01:02:34,510 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 01:02:34,513 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 01:02:43,571 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 01:02:43,576 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 01:02:43,578 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 01:06:25,638 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-01 01:09:34,697 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 01:09:34,714 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 01:09:34,724 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 01:09:51,706 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 01:09:51,708 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 01:09:51,717 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 10:52:39,049 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-01 10:53:16,843 [Worker-4: Launching Streamify-Backend-Deploy-main - StreamifyApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 10:53:16,870 [Worker-4: Launching Streamify-Backend-Deploy-main - StreamifyApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 10:53:16,877 [Worker-4: Launching Streamify-Backend-Deploy-main - StreamifyApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:08:03,524 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:08:03,540 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:08:03,546 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:08:25,679 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:08:25,695 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:08:25,699 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:08:46,234 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:08:46,252 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:08:46,260 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:09:02,491 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:09:02,502 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:09:02,506 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:09:23,931 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:09:23,940 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:09:23,944 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:09:34,110 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:09:34,116 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:09:34,119 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:09:56,122 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:09:56,131 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:09:56,135 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:40:33,395 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:40:33,406 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:40:33,410 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:41:03,141 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:41:03,150 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:41:03,155 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:41:39,610 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:41:39,627 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:41:39,631 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:43:00,070 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:43:00,079 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:43:00,084 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:44:19,451 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-01 11:53:31,368 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:53:31,401 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:53:31,413 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:53:52,402 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:53:52,417 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:53:52,427 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:54:36,666 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:54:36,677 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:54:36,683 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:54:58,113 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:54:58,125 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:54:58,131 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:55:07,860 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:55:07,874 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:55:07,882 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:55:20,230 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:55:20,238 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:55:20,244 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:55:48,174 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:55:48,189 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:55:48,196 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:56:04,252 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:56:04,263 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:56:04,270 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:56:15,203 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:56:15,215 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:56:15,220 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:56:29,116 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:56:29,125 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:56:29,130 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:57:09,850 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:57:09,861 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:57:09,866 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:57:27,040 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:57:27,049 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:57:27,054 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 11:59:58,013 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 11:59:58,034 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 11:59:58,044 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 12:00:08,398 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 12:00:08,407 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 12:00:08,414 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 12:00:19,973 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 12:00:19,986 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 12:00:19,993 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 12:02:58,382 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 12:02:58,397 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 12:02:58,397 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 12:03:08,722 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 12:03:08,740 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 12:03:08,748 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 12:04:41,843 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-01 12:04:41,866 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-01 12:04:41,881 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-01 17:23:18,489 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-02 00:11:11,376 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-02 12:06:24,734 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-03 12:23:36,114 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-03 12:32:18,601 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:32:18,627 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:32:18,632 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:32:41,461 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:32:41,470 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:32:41,474 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:32:57,226 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:32:57,235 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:32:57,242 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:33:13,391 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:33:13,404 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:33:13,437 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:33:24,748 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:33:24,758 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:33:24,763 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:33:47,099 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:33:47,108 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:33:47,115 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:33:50,252 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:33:50,260 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:33:50,264 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:33:58,870 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:33:58,876 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:33:58,881 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:39:38,753 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:39:38,768 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:39:38,774 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:39:44,718 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:39:44,727 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:39:44,732 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:40:53,207 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:40:53,218 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:40:53,225 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:41:51,478 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:41:51,524 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:41:51,535 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:42:04,579 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:42:04,588 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:42:04,588 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:42:15,000 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:42:15,026 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:42:15,029 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:42:27,209 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:42:27,219 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:42:27,223 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-03 12:42:36,785 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-03 12:42:36,795 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-03 12:42:36,801 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 14:42:59,180 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-05 14:43:08,787 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Rolebased:0.0.1-SNAPSHOT @ C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\pom.xml.
+2025-10-05 14:43:09,702 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 14:43:09,750 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 14:43:09,758 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 14:43:12,524 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Rolebased:0.0.1-SNAPSHOT @ C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\pom.xml.
+2025-10-05 14:43:13,901 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 14:43:13,932 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 14:43:13,940 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 14:54:42,014 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 14:54:42,027 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 14:54:42,032 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 14:55:54,301 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-05 14:56:07,989 [Worker-14: Launching Streamify-Backend-Deploy-main - StreamifyApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 14:56:08,026 [Worker-14: Launching Streamify-Backend-Deploy-main - StreamifyApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 14:56:08,034 [Worker-14: Launching Streamify-Backend-Deploy-main - StreamifyApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 15:02:13,388 [Worker-2: Launching Streamify-Backend-Deploy-main - StreamifyApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 15:02:13,397 [Worker-2: Launching Streamify-Backend-Deploy-main - StreamifyApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 15:02:13,401 [Worker-2: Launching Streamify-Backend-Deploy-main - StreamifyApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 15:07:11,798 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-05 15:22:54,722 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 15:22:54,759 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 15:22:54,765 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 15:23:01,696 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 15:23:01,708 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 15:23:01,714 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 15:23:54,296 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 15:23:54,304 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 15:23:54,308 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 19:44:29,253 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 19:44:29,287 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 19:44:29,291 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 19:44:42,937 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 19:44:42,944 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 19:44:42,948 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 19:44:51,946 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 19:44:51,951 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 19:44:51,953 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 19:46:22,404 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 19:46:22,409 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 19:46:22,411 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 19:47:04,718 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-05 19:47:04,722 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-05 19:47:04,724 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kinne\Documents\Streamify_main\Streamify_main\Streamify-Backend-Deploy-main\Streamify-Backend-Deploy-main\src\test\resources
+2025-10-05 19:49:33,184 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

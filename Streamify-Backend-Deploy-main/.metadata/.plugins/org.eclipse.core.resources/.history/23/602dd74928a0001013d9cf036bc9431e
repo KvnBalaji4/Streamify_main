@@ -1,0 +1,14 @@
+package com.demo.watchlist;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import com.demo.Users;
+import com.demo.video.Video;
+import java.util.List;
+
+@Repository
+public interface WatchlistRepository extends JpaRepository<Watchlist, Long> {
+    List<Watchlist> findByUser(Users user);
+    boolean existsByUserAndVideo(Users user, Video video);
+    void deleteByUserAndVideo(Users user, Video video);
+}

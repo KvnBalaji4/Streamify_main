@@ -1,0 +1,79 @@
+package com.demo.watchlist;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.demo.Users;
+import com.demo.UsersRepository;
+import com.demo.video.Video;
+import com.demo.video.VideoRepository;
+
+import java.util.*;
+
+@Service
+public class WatchlistService {
+
+    @Autowired
+    private WatchlistRepository watchlistRepo;
+
+    @Autowired
+    private UsersRepository userRepo;
+
+    @Autowired
+    private VideoRepository videoRepo;
+
+    public Map<String, Object> addToWatchlist(String email, Long videoId) {
+        Map<String, Object> response = new HashMap<>();
+
+        Users user = userRepo.findByEmail(email).orElse(null);
+        Video video = videoRepo.findById(videoId).orElse(null);
+
+        if (user == null || video == null) {
+            response.put("status", 404);
+            response.put("message", "User or video not found");
+            return response;
+        }
+
+        if (watchlistRepo.existsByUserAndVideo(user, video)) {
+            response.put("status", 409);
+            response.put("message", "Already in watchlist");
+            return response;
+        }
+
+        Watchlist wl = new Watchlist();
+        wl.setUser(user);
+        wl.setVideo(video);
+        watchlistRepo.save(wl);
+
+        response.put("status", 200);
+        response.put("message", "Added to watchlist");
+        return response;
+    }
+
+    public List<Video> getWatchlist(String email) {
+        Users user = userRepo.findByEmail(email).orElse(null);
+        if (user == null) return Collections.emptyList();
+
+        return watchlistRepo.findByUser(user).stream()
+                .map(Watchlist::getVideo)
+                .toList();
+    }
+
+    public Map<String, Object> removeFromWatchlist(String email, Long videoId) {
+        Map<String, Object> response = new HashMap<>();
+
+        Users user = userRepo.findByEmail(email).orElse(null);
+        Video video = videoRepo.findById(videoId).orElse(null);
+
+        if (user == null || video == null) {
+            response.put("status", 404);
+            response.put("message", "User or video not found");
+            return response;
+        }
+
+        watchlistRepo.deleteByUserAndVideo(user, video);
+
+        response.put("status", 200);
+        response.put("message", "Removed from watchlist");
+        return response;
+    }
+}

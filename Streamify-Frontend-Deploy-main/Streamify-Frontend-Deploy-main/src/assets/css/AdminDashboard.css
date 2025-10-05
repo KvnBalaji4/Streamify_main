@@ -1,0 +1,12 @@
+.admin-dashboard {
+  background: #000;   /* 🔥 pure black background */
+  color: #fff;        /* white text for contrast */
+  min-height: 100vh;  /* make sure it covers the whole viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+}
