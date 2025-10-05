@@ -8,6 +8,11 @@
     height: 100vh;
     background: linear-gradient(to bottom, #4000ff, #8000ff);
   }
+  .recaptcha-container {
+  transform: scale(0.85);   /* scale down to 85% */
+  transform-origin: 0 0;    /* keep it aligned */
+}
+
   
   /* Title outside the box */
   .title {

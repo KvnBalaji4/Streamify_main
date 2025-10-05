@@ -44,4 +44,13 @@ public class UserController {
     public ResponseEntity<?> deleteUserByUsername(@RequestParam String username) {
         return ResponseEntity.ok(UM.deleteUserByUsername(username));
     }
+    @PostMapping("/login")
+    public ResponseEntity<?> login(@RequestBody Map<String, String> body) {
+        String username = body.get("username");
+        String password = body.get("password");
+        String recaptchaToken = body.get("recaptchaToken");
+
+        return ResponseEntity.ok(UM.validateCredentialsWithRecaptcha(username, password, recaptchaToken));
+    }
+
 }
